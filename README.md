@@ -1,103 +1,103 @@
-# La Crypte du Souffle Vital
+# The Crypt of Vital Breath
 
-## Présentation du Projet
+## Project Overview
 
-Tu avances prudemment dans une **crypte ancienne**, où **l'air est lourd** et chargé d'un **silence inquiétant**. Devant toi, un autel de pierre recouvert de symboles oubliés. Au centre repose un **mystérieux artefact** qui semble endormi: un petit cristal relié à une étrange boîte sonore.
-Tu t'approches et lis l'inscription gravée sur la pierre:
-"**Seul le souffle des étoiles révélera la mélodie.**"
-Soudain, une faible lueur émane du cristal. C'est un capteur ancien, conçu pour réagir à la **température ambiante**. Mais l'air brûlant de la crypte l'a scellé dans un état de dormance.
-Tu comprends alors: **si tu peux refroidir l'artefact en soufflant dessus, il révélera son chant sacré...**
+You step cautiously into an **ancient crypt**, where **the air is heavy** and laden with **an eerie silence**. Before you, a stone altar covered with forgotten symbols. In the center lies a **mysterious artifact** that seems to be asleep: a small crystal connected to a strange sound box.
+You approach it and read the inscription engraved on the stone:
+“**Only the breath of the stars will reveal the melody.**”
+Suddenly, a faint glow emanates from the crystal. It's an ancient sensor, designed to react to **ambient temperature**. But the burning air of the crypt has sealed it in a state of dormancy.
+You understand then: **if you can cool the artifact by blowing on it, it will reveal its sacred song...**
 
 
-## Fonctionnement :
-### Fonctionnement du défi
-- Le **capteur DHT11** mesure la température en continu.
-- Si **Température < 22°C** → Le système détecte l'anormalie.
-- Le buzzer s'active pour jouer la **mélodie "Frère Jacques"** pour indiquer que l'enigme est résolu.
-- Si la température est élevé, rien ne se passe .
+## How it works :
+### How the challenge works
+- The **DHT11 sensor** measures temperature continuously.
+- If **Temperature < 22°C** → The system detects the abnormality.
+- The buzzer activates to play the **"Frère Jacques ”** melody to indicate that the challenge has been solved.
+- If the temperature is high, nothing happens.
 
-### Fonctionnement du Bonus
+### Bonus operation
 
-- **Mode Temps Limité:** La température doit descendre sous 22°C en moins de 30 secondes, sinon la crypte se referme et la mélodie est perdue!
-- **Mode Son Mystique :** Ajoute une deuxième mélodie cachée qui ne se joue qu'à 20°C ou moins.
-- **Mode Indices Anciens:** Affiche la température en direct sur le moniteur série pour aider les aventuriers à ajuster leur souffle.
-- **Mode Inverse:** L'Épreuve de la Flamme Sacrée : Modifie le code pour détecter une température élevée (ex: frotter le capteur avec les doigts pour monter à 30°C et déclencher une autre mélodie).
+- **Limited Time Mode:** The temperature must drop below 22°C in less than 30 seconds, otherwise the crypt closes and the melody is lost!
+- **Mystic Sound Mode:** Adds a second, hidden melody that can only be played at 20°C or below.
+- **Ancient Clues Mode:** Displays live temperature on the serial monitor to help adventurers adjust their breath.
+- **Reverse Mode:** The Sacred Flame Test: Modifies the code to detect a high temperature (e.g. rubbing the sensor with your fingers to raise it to 30°C and trigger another melody).
 
 ---
 
-## Liste du Matériel
+## Hardware List
 
-| Composant             | Modèle         | Quantité | 
+| Component | Model | Quantity | 
 |----------------------|---------------|----------|
-| Carte Arduino       | Arduino UNO    | 1        |
-| Capteur de température | DHT11         | 1        |
-| Buzzer             | Buzzer passif   | 1        |
-| Breadboard         | -              | 1        |
-| Fils de connexion  | Jumpers        | Plusieurs |
+| Arduino Card | Arduino UNO | 1 |
+| Temperature Sensor | DHT11 | 1 |
+| Buzzer | Passive Buzzer | 1 |
+| Breadboard | - | 1 |
+| Jumpers | Several |
 
 ---
 
-## Caractéristiques Techniques
+## Technical Specifications
 
-### Carte Arduino UNO
+### Arduino UNO board
 
 ![UNO](https://github.com/user-attachments/assets/644a792a-c2f4-405f-9d0d-362339074568)
 
-- **Microcontrôleur** : ATmega328P  
-- **Tension de fonctionnement** : 5V  
-- **Tension d'entrée recommandée** : 7-12V  
-- **Courant max par broche d'E/S** : 40 mA  
-- **Fréquence d'horloge** : 16 MHz  
+- **Microcontroller** : ATmega328P  
+- **Operating voltage** : 5V  
+- **Recommended input voltage** : 7-12V  
+- **Max current per I/O pin** : 40 mA  
+- **Clock frequency**: 16 MHz  
 
-### Capteur de Température DHT11
+### DHT11 Temperature Sensor
 ![DHT11](https://github.com/user-attachments/assets/170e7369-e1af-4794-9324-2e684ab54d0c)
  
-- **Tension d'alimentation** : 3.3V - 5V  
-- **Plage de température** : 0°C à 50°C  
-- **Précision** : ±2°C  
-- **Plage d'humidité** : 20% à 90% RH  
+- **Supply voltage** : 3.3V - 5V  
+- **Temperature range** : 0°C to 50°C  
+- **Accuracy**: ±2°C  
+- **Humidity range**: 20% to 90% RH  
 
-### Buzzer Passif
+### Passive Buzzer
 ![arduino-buzzer-module](https://github.com/user-attachments/assets/d2fe0f64-855a-465e-b720-73299437702b)
 
-- **Tension de fonctionnement** : 3.3V - 5V  
-- **Courant nominal** : 10-30 mA  
-- **Fréquence de résonance** : ~2 kHz  
+- **Operating voltage**: 3.3V - 5V  
+- **Nominal current**: 10-30 mA  
+- **Resonance frequency**: ~2 kHz  
 
-### Breadboard (Plaque d'essai)
+### Breadboard
 ![Breadboard](https://github.com/user-attachments/assets/5e749c06-f7fd-4c5f-b3c3-e49f244e7c6b)
     
-- **Courant max par rangée** : 1A  
-- **Tension max** : 300V  
+- **Max current per row** : 1A  
+- **Max voltage**: 300V  
 
-### Fils de Connexion (Jumpers)
+### Jumpers
 ![Fils de connexions](https://github.com/user-attachments/assets/77709f66-400b-4776-93cd-d72303767f2f)
   
-- **Courant max supporté** : 1-3A  
-- **Longueur** : 10-30 cm  
+- **Max current supported** : 1-3A  
+- **Length** : 10-30 cm  
+---
+
+## Software and Programming
+
+- **Software**: Arduino IDE
+- **Programming language**: Arduino (C++)
 
 ---
 
-## Logiciel et Programmation
-
-- **Logiciel** : Arduino IDE
-- **Langage de programmation** : Arduino (C++)
-
----
-
-## Schémas
-### Schéma électrique du projet
+## Schematics
+### Project electrical diagram
 ![schema-electrique](https://github.com/user-attachments/assets/5b78b15b-5821-45eb-a97f-c6357a9135c1)
 
 
-### Schéma synoptique du projet
-<img width="502" alt="schema-synoptique" src="https://github.com/user-attachments/assets/f255334d-1f79-4c97-83e1-be214d687a58" />
+### Project synoptic diagram
+<img width=“502” alt=“schema-synoptique” src=“https://github.com/user-attachments/assets/f255334d-1f79-4c97-83e1-be214d687a58” />
 
 
 ---
 
-## Codes Arduino
-### Code Arduino du Défis
+## Arduino codes
+### Arduino Challenge Code
+
 ```cpp
 #include <dht11.h>
 
@@ -151,7 +151,7 @@ void loop() {
   }
 }
 ```
-### Code Arduino du Bonus
+### Bonus Arduino code
 
 ```cpp
 #include <dht11.h>
