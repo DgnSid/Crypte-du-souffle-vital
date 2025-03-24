@@ -90,7 +90,7 @@ You understand then: **if you can cool the artifact by blowing on it, it will re
 
 
 ### Project synoptic diagram
-<img width=“502” alt=“schema-synoptique” src=“https://github.com/user-attachments/assets/f255334d-1f79-4c97-83e1-be214d687a58” />
+<img width="502" alt="schema-synoptique" src="https://github.com/user-attachments/assets/172bbfb3-9e3a-497a-bf9d-2f47a37df4c9" />
 
 
 ---
