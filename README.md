@@ -41,7 +41,7 @@ Tu comprends alors: **si tu peux refroidir l'artefact en soufflant dessus, il r�
 
 ### Carte Arduino UNO
 
-![Carte arduino](images/UNO.jpeg)  
+![UNO](https://github.com/user-attachments/assets/644a792a-c2f4-405f-9d0d-362339074568)
 
 - **Microcontrôleur** : ATmega328P  
 - **Tension de fonctionnement** : 5V  
@@ -50,25 +50,29 @@ Tu comprends alors: **si tu peux refroidir l'artefact en soufflant dessus, il r�
 - **Fréquence d'horloge** : 16 MHz  
 
 ### Capteur de Température DHT11
-![Capteur de température DHT11](images/DHT11.jpeg)  
+![DHT11](https://github.com/user-attachments/assets/170e7369-e1af-4794-9324-2e684ab54d0c)
+ 
 - **Tension d'alimentation** : 3.3V - 5V  
 - **Plage de température** : 0°C à 50°C  
 - **Précision** : ±2°C  
 - **Plage d'humidité** : 20% à 90% RH  
 
 ### Buzzer Passif
-![Buzzer passif](images/arduino-buzzer-module.jpg)  
+![arduino-buzzer-module](https://github.com/user-attachments/assets/d2fe0f64-855a-465e-b720-73299437702b)
+
 - **Tension de fonctionnement** : 3.3V - 5V  
 - **Courant nominal** : 10-30 mA  
 - **Fréquence de résonance** : ~2 kHz  
 
 ### Breadboard (Plaque d'essai)
-![Breadboard](images/Breadboard.jpeg)    
+![Breadboard](https://github.com/user-attachments/assets/5e749c06-f7fd-4c5f-b3c3-e49f244e7c6b)
+    
 - **Courant max par rangée** : 1A  
 - **Tension max** : 300V  
 
 ### Fils de Connexion (Jumpers)
-![Fils de Connexion](images/Fils%20de%20connexions.jpeg)  
+![Fils de connexions](https://github.com/user-attachments/assets/77709f66-400b-4776-93cd-d72303767f2f)
+  
 - **Courant max supporté** : 1-3A  
 - **Longueur** : 10-30 cm  
 
@@ -83,10 +87,12 @@ Tu comprends alors: **si tu peux refroidir l'artefact en soufflant dessus, il r�
 
 ## Schémas
 ### Schéma électrique du projet
-![Schéma électrique du projet](images/schema-electrique.jpg)
+![schema-electrique](https://github.com/user-attachments/assets/5b78b15b-5821-45eb-a97f-c6357a9135c1)
+
 
 ### Schéma synoptique du projet
-![Schéma synoptique du projet](images/schema-synoptique.png)
+<img width="502" alt="schema-synoptique" src="https://github.com/user-attachments/assets/f255334d-1f79-4c97-83e1-be214d687a58" />
+
 
 ---
 
