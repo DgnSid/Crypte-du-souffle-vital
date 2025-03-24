@@ -309,46 +309,6 @@ void setup() {
 }
 
 void loop() {
-  /*
-  
-  float temperature = (float) DHT11.temperature;
-  Serial.print("Temperature (C): ");
-  Serial.println(temperature, 2);
-  delay(1000);
-
-  if (temperature < 22) {
-    playMelodyFJ();
-  } else {
-    noTone(SPEAKER_PIN);
-  }//
-  // BONUS mode de temps limité
-  //
-  int i;
-  for(i = 1; i <= 30; i++){
-  delay(1000);
-  float temperature = (float) DHT11.temperature;
-  Serial.print("Temperature (C): ");
-  Serial.println(temperature, 2);
-  if (temperature < 22){
-    playMelodyFJ();
-    break;
-   }
-  }
-  delay(10000);
-  //
-  // BONNUS mode de sons mystique
-  float temperature = (float) DHT11.temperature;
-  Serial.print("Temperature (C): ");
-  Serial.println(temperature, 2);
-  delay(1000);
-
-  if (temperature < 22) {
-    playMelody1();
-  } else {
-    noTone(SPEAKER_PIN);
-  }
-  */
-  // BONUS mode inverse
    float temperature = (float) DHT11.temperature;
   Serial.print("Temperature (C): ");
   Serial.println(temperature, 2);
