@@ -1,8 +1,0 @@
-site_name: Documentation Projet Crypte du souffle vital
-theme:
-  name: material
-  palette:
-    primary: blue
-    accent: light blue
-# plugins:
-#   - pdf-export
