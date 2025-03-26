@@ -1,4 +1,5 @@
 # The Crypt of Vital Breath
+# This challenge has been solved in the framework of the Arduino Days 2025 organised in Benin.
 
 ## Project Overview
 
